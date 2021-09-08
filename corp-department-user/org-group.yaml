@@ -14,7 +14,7 @@ spec:
     displayName: 广州分公司
     email: info@189.cn
     picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
-  children: [infrastructure]
+  children: [changpinyanfazhongxin, yunpintaijishuzhongxin]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
@@ -23,7 +23,6 @@ metadata:
   description: 我是一个描述
 spec:
   targets:
-    - ./infrastructure-group.yaml
     - ./changpinyanfazhongxin-group.yaml
     - ./yunpintaijishuzhongxin-group.yaml
     - ./team-tykj-gz-group.yaml
