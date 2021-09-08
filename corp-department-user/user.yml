@@ -5,7 +5,7 @@ metadata:
 spec:
   profile:
     # Intentional no displayName for testing
-    displayName: 刘小杰
+    displayName: liuxj
     email: liuguangjie@example.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
   memberOf: [team-tyjk-gz]
@@ -16,7 +16,7 @@ metadata:
   name: zhangsan
 spec:
   profile:
-    displayName: 张三
+    displayName: zs
     email: zhangsan@example.com
     picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
   memberOf: [team-tyjk-gz]
