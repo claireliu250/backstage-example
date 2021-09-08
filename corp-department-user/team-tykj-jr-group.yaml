@@ -4,7 +4,7 @@ metadata:
   name: team-tyjk-jr
   description: 添翼砍价-接入
 spec:
-  type: team
+  type: sub-department
   profile:
     # Intentional no displayName for testing
     email: team-tyjk-jr@example.com
