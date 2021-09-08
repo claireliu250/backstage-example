@@ -19,7 +19,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: example-groups2222
+  name: tianyishuzishanghuo-location
   description: 我是一个描述
 spec:
   targets:
