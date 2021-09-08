@@ -4,7 +4,7 @@ metadata:
   name: changpinyanfazhongxin
   description: The changpinyanfazhongxin sub-department
 spec:
-  type: sub-department
+  type: department
   profile:
     displayName: 产品研发中心
     email: cpyfzx@example.com

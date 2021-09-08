@@ -4,7 +4,7 @@ metadata:
   name: yunpintaijishuzhongxin
   description: 云平台技术中心
 spec:
-  type: sub-department
+  type: department
   profile:
     displayName: 云平台技术中心
     email: yptjszx@example.com
