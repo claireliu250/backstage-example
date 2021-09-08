@@ -29,3 +29,4 @@ spec:
     - ./team-tykj-jy-group.yaml
     - ./team-tykj-jr-group.yaml
     - ./team-yunwei-group.yaml
+    - ./user.yaml
