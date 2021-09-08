@@ -1,0 +1,36 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-tyjk-jr
+  description: 添翼砍价-接入
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: team-tyjk-jr@example.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: changpinyanfazhongxin
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: zhaoliu
+spec:
+  profile:
+    # Intentional no displayName for testing
+    displayName: 赵六
+    email: zhaoliu@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [team-tyjk-jr]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: lixiaowen
+spec:
+  profile:
+    displayName: 李小雯
+    email: lixiaowen@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+  memberOf: [team-tyjk-jr]

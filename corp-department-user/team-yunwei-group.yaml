@@ -1,0 +1,36 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-yunwei
+  description: 运维
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: tyjk-yunwei@example.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: yunpintaijishuzhongxin
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: yunweiA
+spec:
+  profile:
+    # Intentional no displayName for testing
+    displayName: 运维甲
+    email: yunweiA@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [team-yunwei]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: yunweiB
+spec:
+  profile:
+    displayName: 运维乙
+    email: yunweiB@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+  memberOf: [team-yunwei]

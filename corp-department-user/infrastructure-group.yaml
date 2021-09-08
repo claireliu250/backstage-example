@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: infrastructure
+  description: 分公司与部门的关联
+spec:
+  type: department
+  # Intentional no profile for testing
+  parent: tianyishuzishanghuo-gz
+  children: [changpinyanfazhongxin, yunpintaijishuzhongxin]

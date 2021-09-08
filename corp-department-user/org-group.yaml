@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tianyishuzishanghuo-gz
+  description: 我是一个广州分公司的描述。。。。
+  links:
+    - url: http://www.tianyishuzishanghuo-gz.com/
+      title: Website
+    - url: https://meta.wikimedia.org/wiki/
+      title: Intranet
+spec:
+  type: organization
+  profile:
+    displayName: 广州分公司
+    email: info@189.cn
+    picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
+  children: [infrastructure]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-groups
+  description: 我是一个描述
+spec:
+  targets:
+    - ./infrastructure-group.yaml
+    - ./changpinyanfazhongxin-group.yaml
+    - ./yunpintaijishuzhongxin-group.yaml
+    - ./team-tykj-gz-group.yaml
+    - ./team-tykj-jy-group.yaml
+    - ./team-tykj-jr-group.yaml
+    - ./team-yunwei-group.yaml
