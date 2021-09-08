@@ -9,5 +9,5 @@ spec:
     displayName: 云平台技术中心
     email: yptjszx@example.com
     picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
-  parent: infrastructure
+  parent: tianyishuzishanghuo-gz2
   children: [team-yunwei]

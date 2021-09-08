@@ -9,5 +9,5 @@ spec:
     displayName: 产品研发中心
     email: cpyfzx@example.com
     # Intentional no picture for testing
-  parent: infrastructure
+  parent: tianyishuzishanghuo-gz2
   children: [team-tykj-gz, team-tykj-jy, team-tykj-jr]

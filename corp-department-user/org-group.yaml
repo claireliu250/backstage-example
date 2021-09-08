@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: tianyishuzishanghuo-gz
+  name: tianyishuzishanghuo-gz2
   description: 我是一个广州分公司的描述。。。。
   links:
     - url: http://www.tianyishuzishanghuo-gz.com/
@@ -19,7 +19,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: example-groups
+  name: example-groups2222
   description: 我是一个描述
 spec:
   targets:
